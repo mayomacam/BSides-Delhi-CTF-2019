@@ -3,4 +3,4 @@ Forensic
 
 
 #challenge 0110
-solutions.
+solution.
