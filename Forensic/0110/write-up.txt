@@ -1,0 +1,13 @@
+#First when i got two image file1.png and file2.png i recall once i have done a ctf challenge with Qr code. when i scan first image it told me that no flag here.
+
+i realize second image may be contain some information but it's just half of Qr code . So i invert it break it but i didn't
+get
+anything . then i just start applying some steganography tools i have all but didn't get anything useful. then i recall that 
+may be both image is a part of one QRcode. So i combined with stegsolve tool and i get our QR code but it's didn't complete 
+yet now i have to think which image i want because it gave's many types image.
+
+here come fun part question name 0110 it's clue to solve final puzzle here. If you realize every gates(AND OR & XOR) have it's 
+own output value like XOR have 0110 so i just use this XOR to get our image. now we have our image then i scan but nothing found.
+#see 5.png
+
+now i realize my fault that's QRcode are white and black not black and white like file2.png . Then just invert it and we got our final QR code . Scan it and we get our flag.
